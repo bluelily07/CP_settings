@@ -174,6 +174,5 @@ void bfs(int start) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDEyMDkyNTkzLC0xODgxMzY1NTIwLC00MD
-A0NjQ1NzcsMTg2MjMwMTM4XX0=
+eyJoaXN0b3J5IjpbNDEyMDkyNTkzXX0=
 -->
