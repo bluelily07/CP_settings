@@ -70,7 +70,7 @@ vector<vector<int>> adjmatrix(int n, int m) {
         adj[v][u] = 1;//ставим 1 на месте ребра, не забываем поставить единицу зеркально первой, тк матрица зеркальна.
     }
 
-    return adj;//буллевая матрица, в отличии от интовой, дешевле примерно в 32 раза по памяти, но скорость обращения к такой матрице несильно падает. Выбираем то, в чем нуждаемся
+    return adj;//буллевая матрица, в отличии от интовой, дешевле примерно в 32 раза по памяти, но скорость обращения к такой матрице несильно падает из-за
 }
 ```
 2. Список смежности (adjacency list)
@@ -173,6 +173,6 @@ void bfs(int start) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzYzMzYxNDgsLTE4ODEzNjU1MjAsLT
+eyJoaXN0b3J5IjpbLTEyNzMzNTk5NzUsLTE4ODEzNjU1MjAsLT
 QwMDQ2NDU3NywxODYyMzAxMzhdfQ==
 -->
