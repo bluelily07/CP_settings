@@ -59,8 +59,24 @@
 
 
 1. Матрица смежности (adjacency matrix)
+```cpp
+vector<vector<int>> buildAdjMatrix(int n, int m) {
+    vector<vector<int>> adj(n + 1, vector<int>(n + 1, 0));
 
-3. Список смежности (adjacency list)
+    for (int i = 0; i < m; i++) {
+        int u, v;
+        cin >> u >> v;
+        adj[u][v] = 1;
+        adj[v][u] = 1;
+    }
+
+    return adj;
+}
+```
+2. Список смежности (adjacency list)
+```cpp
+
+
 4. Список ребер (edge list)
 
 
@@ -133,6 +149,6 @@ void bfs(int start) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ3MDEzMjMxLC00MDA0NjQ1NzcsMTg2Mj
+eyJoaXN0b3J5IjpbODExNDQxMTM5LC00MDA0NjQ1NzcsMTg2Mj
 MwMTM4XX0=
 -->
