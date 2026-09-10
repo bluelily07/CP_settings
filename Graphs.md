@@ -89,7 +89,7 @@ vector<vector<int>> adjlist(int n, int m) {
     return adj;
 }
 ```
-3. Список ребер (edge list)
+3. Список ребер (edge list) O(m) памяти
 ```cpp
 vector<pair<int,int>> edgelist(int m) {
     vector<pair<int,int>> edges;//вектор пар
@@ -174,5 +174,5 @@ void bfs(int start) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDEyMDkyNTkzXX0=
+eyJoaXN0b3J5IjpbMTQ1MTc4Nzg2Ml19
 -->
