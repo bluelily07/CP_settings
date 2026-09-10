@@ -60,7 +60,7 @@
 
 1. Матрица смежности (adjacency matrix)
 ```cpp
-vector<vector<int>> buildAdjMatrix(int n, int m) {
+vector<vector<int>> adjmatrix(int n, int m) {
     vector<vector<int>> adj(n + 1, vector<int>(n + 1, 0));
 
     for (int i = 0; i < m; i++) {
@@ -75,7 +75,7 @@ vector<vector<int>> buildAdjMatrix(int n, int m) {
 ```
 2. Список смежности (adjacency list)
 ```cpp
-vector<vector<int>> buildAdjList(int n, int m) {
+vector<vector<int>> adjlist(int n, int m) {
     vector<vector<int>> adj(n + 1);
 
     for (int i = 0; i < m; i++) {
@@ -90,7 +90,7 @@ vector<vector<int>> buildAdjList(int n, int m) {
 ```
 3. Список ребер (edge list)
 ```cpp
-vector<pair<int,int>> buildEdgeList(int m) {
+vector<pair<int,int>> edgelist(int m) {
     vector<pair<int,int>> edges;
 
     for (int i = 0; i < m; i++) {
@@ -173,6 +173,6 @@ void bfs(int start) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MzY3OTI3MiwtNDAwNDY0NTc3LDE4Nj
+eyJoaXN0b3J5IjpbMTY1Njk5NDY5NCwtNDAwNDY0NTc3LDE4Nj
 IzMDEzOF19
 -->
