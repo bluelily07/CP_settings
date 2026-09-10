@@ -77,13 +77,13 @@ vector<vector<int>> adjmatrix(int n, int m) {
 2. Список смежности (adjacency list) O(n+m) памяти
 ```cpp
 vector<vector<int>> adjlist(int n, int m) {
-    vector<vector<int>> adj(n + 1);// вектор
+    vector<vector<int>> adj(n + 1);// вектор пустых векторов
 
     for (int i = 0; i < m; i++) {
         int u, v;
-        cin >> u >> v;
+        cin >> u >> v;//считали данные
         adj[u].push_back(v);
-        adj[v].push_back(u);
+        adj[v].push_back(u);//для каждой вершины добавляем его соседа, добавляем так же соседа зеркально, как у матрицы.
     }
 
     return adj;
@@ -174,6 +174,6 @@ void bfs(int start) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3OTgzODY3NSwtMTg4MTM2NTUyMCwtND
+eyJoaXN0b3J5IjpbLTc1NjM3ODIxOSwtMTg4MTM2NTUyMCwtND
 AwNDY0NTc3LDE4NjIzMDEzOF19
 -->
