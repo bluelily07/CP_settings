@@ -74,10 +74,10 @@ vector<vector<int>> adjmatrix(int n, int m) {
     //В задачах когда мы используем матрицу смежности ради доступа O(1), берем буллевую матрицу, в очень редких специффических алгоритмах, когда нужна скорость обращения(Флойд-Уоршелл на большом n), берем int или char.
 }
 ```
-2. Список смежности (adjacency list)
+2. Список смежности (adjacency list) O(n+m) памяти
 ```cpp
 vector<vector<int>> adjlist(int n, int m) {
-    vector<vector<int>> adj(n + 1);
+    vector<vector<int>> adj(n + 1);// вектор
 
     for (int i = 0; i < m; i++) {
         int u, v;
@@ -174,6 +174,6 @@ void bfs(int start) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODkzMjEzMCwtMTg4MTM2NTUyMCwtND
+eyJoaXN0b3J5IjpbLTM3OTgzODY3NSwtMTg4MTM2NTUyMCwtND
 AwNDY0NTc3LDE4NjIzMDEzOF19
 -->
