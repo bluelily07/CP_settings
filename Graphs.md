@@ -61,7 +61,7 @@
 1. Матрица смежности (adjacency matrix)
 ```cpp
 vector<vector<int>> adjmatrix(int n, int m) {
-    vector<vector<int>> adj(n + 1, vector<int>(n + 1, 0));
+    vector<vector<int>> adj(n + 1, vector<int>(n + 1, 0)); //создаем матрицу, с помощью n+1 переходим в 1 индексацию, можно остаться в 0, но тогда после считывания данных, уменьшаем их на 1. (u--; v--)
 
     for (int i = 0; i < m; i++) {
         int u, v;
@@ -173,6 +173,6 @@ void bfs(int start) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1Njk5NDY5NCwtNDAwNDY0NTc3LDE4Nj
+eyJoaXN0b3J5IjpbLTc4MzIxNDAxMiwtNDAwNDY0NTc3LDE4Nj
 IzMDEzOF19
 -->
