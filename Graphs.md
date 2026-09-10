@@ -59,8 +59,10 @@
 
 
 1. Матрица смежности (adjacency matrix)
-2. Список смежности (adjacency list)
-3. Список ребер (edge list)
+
+
+3. Список смежности (adjacency list)
+4. Список ребер (edge list)
 
 
 ## Основные алгоритмы обхода 
@@ -132,5 +134,6 @@ void bfs(int start) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMDQ2NDU3NywxODYyMzAxMzhdfQ==
+eyJoaXN0b3J5IjpbMjAzNjI1ODAxMywtNDAwNDY0NTc3LDE4Nj
+IzMDEzOF19
 -->
