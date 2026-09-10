@@ -117,7 +117,9 @@ void dfs(int v) {
 ```
 
 
-\*\*BFS\*\*
+
+**BFS**
+
 ```cpp
 
 void bfs(int start) {
