@@ -1,5 +1,5 @@
 
-*handle*emphasized text**
+*cf handle: bluelily07*
 ## Виды графов
 
 
@@ -132,5 +132,5 @@ void bfs(int start) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjEzNjgxODIsMTg2MjMwMTM4XX0=
+eyJoaXN0b3J5IjpbLTQwMDQ2NDU3NywxODYyMzAxMzhdfQ==
 -->
