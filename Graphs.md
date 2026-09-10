@@ -65,12 +65,12 @@ vector<vector<int>> adjmatrix(int n, int m) {
 
     for (int i = 0; i < m; i++) {
         int u, v;
-        cin >> u >> v;
+        cin >> u >> v;//считали данные
         adj[u][v] = 1;
-        adj[v][u] = 1;
+        adj[v][u] = 1;//ставим 1 на месте ребра, не забываем поставить единицу зеркально первой, тк матрица зеркальна.
     }
 
-    return adj;
+    return adj;//можно матрицу создать буллевой, тогда меньше памяти будет уходить на ячейку
 }
 ```
 2. Список смежности (adjacency list)
@@ -173,6 +173,6 @@ void bfs(int start) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MzIxNDAxMiwtNDAwNDY0NTc3LDE4Nj
-IzMDEzOF19
+eyJoaXN0b3J5IjpbLTE4ODEzNjU1MjAsLTQwMDQ2NDU3NywxOD
+YyMzAxMzhdfQ==
 -->
