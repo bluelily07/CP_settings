@@ -92,12 +92,12 @@ vector<vector<int>> adjlist(int n, int m) {
 3. Список ребер (edge list)
 ```cpp
 vector<pair<int,int>> edgelist(int m) {
-    vector<pair<int,int>> edges;
+    vector<pair<int,int>> edges;//вектор пар
 
     for (int i = 0; i < m; i++) {
         int u, v;
-        cin >> u >> v;
-        edges.push_back({u, v});
+        cin >> u >> v;//считываем данные
+        edges.push_back({u, v});//добавляем пару в вектор
     }
 
     return edges;
@@ -109,7 +109,7 @@ vector<pair<int,int>> edgelist(int m) {
 
 
 
-DFS - идея: заходим в вершину, из неё идём в первого непосещенного соседа максимально глубоко, и только когда попадаем в тупик - возвращаемся и пробуем следующего соседа.
+DFS - идея: заходим в вершину, из неё идём в первого непосещенного соседа максимально глубоко, и только когда попадаем в тупик - возвращаемся к вер и пробуем следующего соседа.
 
 BFS - идея: обходим граф слоями, сначала все вершины на расстоянии 1 от старта, потом все на расстоянии 2, и тд, используем фифо очередь.
 
@@ -174,6 +174,6 @@ void bfs(int start) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1NjM3ODIxOSwtMTg4MTM2NTUyMCwtND
+eyJoaXN0b3J5IjpbMTA1NTg0NjUzMSwtMTg4MTM2NTUyMCwtND
 AwNDY0NTc3LDE4NjIzMDEzOF19
 -->
