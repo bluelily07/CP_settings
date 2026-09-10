@@ -75,9 +75,33 @@ vector<vector<int>> buildAdjMatrix(int n, int m) {
 ```
 2. Список смежности (adjacency list)
 ```cpp
+vector<vector<int>> buildAdjList(int n, int m) {
+    vector<vector<int>> adj(n + 1);
 
+    for (int i = 0; i < m; i++) {
+        int u, v;
+        cin >> u >> v;
+        adj[u].push_back(v);
+        adj[v].push_back(u);
+    }
 
-4. Список ребер (edge list)
+    return adj;
+}
+```
+3. Список ребер (edge list)
+```cpp
+vector<pair<int,int>> buildEdgeList(int m) {
+    vector<pair<int,int>> edges;
+
+    for (int i = 0; i < m; i++) {
+        int u, v;
+        cin >> u >> v;
+        edges.push_back({u, v});
+    }
+
+    return edges;
+}
+```
 
 
 ## Основные алгоритмы обхода 
@@ -149,6 +173,6 @@ void bfs(int start) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODExNDQxMTM5LC00MDA0NjQ1NzcsMTg2Mj
-MwMTM4XX0=
+eyJoaXN0b3J5IjpbLTQ5MzY3OTI3MiwtNDAwNDY0NTc3LDE4Nj
+IzMDEzOF19
 -->
