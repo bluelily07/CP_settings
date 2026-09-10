@@ -60,7 +60,6 @@
 
 1. Матрица смежности (adjacency matrix)
 
-
 3. Список смежности (adjacency list)
 4. Список ребер (edge list)
 
@@ -134,6 +133,6 @@ void bfs(int start) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNjI1ODAxMywtNDAwNDY0NTc3LDE4Nj
-IzMDEzOF19
+eyJoaXN0b3J5IjpbOTQ3MDEzMjMxLC00MDA0NjQ1NzcsMTg2Mj
+MwMTM4XX0=
 -->
