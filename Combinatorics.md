@@ -45,8 +45,14 @@ B = {3, 4, 5}
 > A - B = {1, 3, 5}
 
  - △ - Симметрическая разность (A △ B или A ⊕ B)
+![t_u_495](https://media.geeksforgeeks.org/wp-content/uploads/20250411174157863278/t_u_495.webp)
+A = {1, 2, 3}
+B = {3, 4, 5}
+Включает в себя все элементы A и B, но не включает их пересечение.
+
+> A △ B = {1, 2, 4, 5}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2OTU3MDE2Niw0NjM1NTI5MDgsNTcxNz
-EzODddfQ==
+eyJoaXN0b3J5IjpbLTE0MzMzODg1MTEsNDYzNTUyOTA4LDU3MT
+cxMzg3XX0=
 -->
