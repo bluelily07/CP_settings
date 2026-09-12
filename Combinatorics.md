@@ -4,8 +4,6 @@
 
 ## Множества и операции над множествами 
 
-![set_operations](https://media.geeksforgeeks.org/wp-content/uploads/20260602140823678499/set_operations.webp)
-
 Множество - совокупность некоторых элементов.
 
 **Операции над множеством:**
@@ -53,6 +51,6 @@ B = {3, 4, 5}
 > A △ B = {1, 2, 4, 5}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzMzODg1MTEsNDYzNTUyOTA4LDU3MT
+eyJoaXN0b3J5IjpbLTIxNDA0MzExODcsNDYzNTUyOTA4LDU3MT
 cxMzg3XX0=
 -->
