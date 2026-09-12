@@ -28,8 +28,8 @@ B = {3, 4, 5}
 (A ∩ B) = (A) + (B) – (A ∪ B)
 
 
- - 
+ - Непересекающееся множество
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MTE3NTIzMSw1NzE3MTM4N119
+eyJoaXN0b3J5IjpbLTExMjAzOTMxODIsNTcxNzEzODddfQ==
 -->
