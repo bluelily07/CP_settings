@@ -15,7 +15,13 @@
 -   5→5
 
 
+#### Циклическое представление перестановки
+
+Любую перестановку можно разложить на  **непересекающиеся циклы**. Цикл — это последовательность элементов, переходящих друг в друга:
+
+	(a1→a2→a3→…→ak→a1)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNTYxNDQxMCwtNzIwMDU0Mjk5LC0yMD
-g4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTE4MzA5NTA5NDksLTcyMDA1NDI5OSwtMj
+A4ODc0NjYxMl19
 -->
