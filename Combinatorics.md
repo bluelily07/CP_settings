@@ -15,8 +15,17 @@
  A = {2, 3, 4}
  B = {3, 4, 5}. 
 > A ∪ B = {2, 3, 4, 5}.
+ - ∩ - Пересечение множеств (A ∩ B)
+ ![uni495](https://media.geeksforgeeks.org/wp-content/uploads/20250411172535654131/uni495.webp)
+A = {2, 3, 4}
+B = {3, 4, 5}
+
+
+> Look for elements that are common to both sets A and B.
+> 
+> A ∩ B = {3, 4}.
  - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MTg4MzU3Myw1NzE3MTM4N119
+eyJoaXN0b3J5IjpbMTI5MTEwMTA0NCw1NzE3MTM4N119
 -->
