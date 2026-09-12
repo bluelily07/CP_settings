@@ -44,9 +44,9 @@ B = {3, 4, 5}
 
 > A - B = {1, 3, 5}
 
- - △ - Симметрическая разность
+ - △ - Симметрическая разность (A △ B или A ⊕ B)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwODYzNjE2OCw0NjM1NTI5MDgsNTcxNz
+eyJoaXN0b3J5IjpbLTg2OTU3MDE2Niw0NjM1NTI5MDgsNTcxNz
 EzODddfQ==
 -->
