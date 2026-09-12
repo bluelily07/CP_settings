@@ -56,9 +56,11 @@ B = {3, 4, 5}
 Пусть дополнением множества А будет А', U - Универсальное множество.
 U = {1, 2, 3, 4, 5, 6, 7, 8}
 A = {1, 2, 5, 6}
-тогда по иллюстрации, (A') = (U) - (A).
+тогда по иллюстрации: (A') = (U) - (A).
+
+> A′ = {3, 4, 7, 8}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NzE4NDcxMSw0NjM1NTI5MDgsNTcxNz
+eyJoaXN0b3J5IjpbLTYzNDQ2NTg5Nyw0NjM1NTI5MDgsNTcxNz
 EzODddfQ==
 -->
