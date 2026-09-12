@@ -50,8 +50,11 @@ B = {3, 4, 5}
 
 > A △ B = {1, 2, 4, 5}
 
-Универсальное множество 
+ - Дополнение множества
+![76](https://media.geeksforgeeks.org/wp-content/uploads/20250411173142259586/76.webp)
+Дополнение множества - элементы не входящие в множество A
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMTQxMzcwNiw0NjM1NTI5MDgsNTcxNz
-EzODddfQ==
+eyJoaXN0b3J5IjpbLTExNDMwMjYwOTksNDYzNTUyOTA4LDU3MT
+cxMzg3XX0=
 -->
