@@ -10,8 +10,9 @@
 
 **Операции над множеством:**
 
- - ∪ - пере
+ - ∪ - Объединение множеств (A ∪ B)
+ - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0ODc5OTA2XX0=
+eyJoaXN0b3J5IjpbNTcxNzEzODddfQ==
 -->
