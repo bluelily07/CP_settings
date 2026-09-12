@@ -51,6 +51,8 @@ B = {3, 4, 5}
 > A △ B = {1, 2, 4, 5}
 
  - Дополнение множества
+ 
+ 
 ![76](https://media.geeksforgeeks.org/wp-content/uploads/20250411173142259586/76.webp)
 Дополнение множества - элементы не входящие в множество A.
 Пусть дополнением множества А будет А', U - Универсальное множество.
@@ -61,5 +63,5 @@ A = {1, 2, 5, 6}
 > A′ = {3, 4, 7, 8}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNDQ2NTg5N119
+eyJoaXN0b3J5IjpbMTk0NjMzNjM0MywtNjM0NDY1ODk3XX0=
 -->
