@@ -50,7 +50,8 @@ B = {3, 4, 5}
 
 > A △ B = {1, 2, 4, 5}
 
+Универсальное множество 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3OTI5Njk4LDQ2MzU1MjkwOCw1NzE3MT
-M4N119
+eyJoaXN0b3J5IjpbMTkyMTQxMzcwNiw0NjM1NTI5MDgsNTcxNz
+EzODddfQ==
 -->
