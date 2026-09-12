@@ -34,8 +34,13 @@ B = {3, 4, 5}
  A = {1, 3, 5, 7, 9}
  B = {2, 4, 6, 8}
 
-> A ∩ B = {3, 4}
+> A ∩ B = ф
+
+ - Разность множеств
+ ![file](https://media.geeksforgeeks.org/wp-content/uploads/20250411172924735560/file.webp)
+ 
+ - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjM4MDk1MjgsNTcxNzEzODddfQ==
+eyJoaXN0b3J5IjpbNDYzNTUyOTA4LDU3MTcxMzg3XX0=
 -->
