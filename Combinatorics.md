@@ -28,11 +28,11 @@ B = {3, 4, 5}
  - Непересекающиеся множества
  ![6757](https://media.geeksforgeeks.org/wp-content/uploads/20250411172707663120/6757.webp)
  Пересечение таких множеств равно пустому множеству.
- ϕ - Пустое множество.
+ ∅ - Пустое множество.
  A = {1, 3, 5, 7, 9}
  B = {2, 4, 6, 8}
 
-> A ∩ B = ф
+> A ∩ B = ∅
 
  - A - B. Разность множеств
  ![file](https://media.geeksforgeeks.org/wp-content/uploads/20250411172924735560/file.webp)
@@ -51,6 +51,6 @@ B = {3, 4, 5}
 > A △ B = {1, 2, 4, 5}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDA0MzExODcsNDYzNTUyOTA4LDU3MT
-cxMzg3XX0=
+eyJoaXN0b3J5IjpbLTg3OTI5Njk4LDQ2MzU1MjkwOCw1NzE3MT
+M4N119
 -->
