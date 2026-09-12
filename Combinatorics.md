@@ -61,6 +61,5 @@ A = {1, 2, 5, 6}
 > A′ = {3, 4, 7, 8}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNDQ2NTg5Nyw0NjM1NTI5MDgsNTcxNz
-EzODddfQ==
+eyJoaXN0b3J5IjpbLTYzNDQ2NTg5N119
 -->
