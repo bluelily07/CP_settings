@@ -15,17 +15,19 @@
  A = {2, 3, 4}
  B = {3, 4, 5}. 
 > A ∪ B = {2, 3, 4, 5}.
+
+Учитывает все элементы из двух множеств один раз, без повторений.
  - ∩ - Пересечение множеств (A ∩ B)
  ![uni495](https://media.geeksforgeeks.org/wp-content/uploads/20250411172535654131/uni495.webp)
 A = {2, 3, 4}
 B = {3, 4, 5}
-
-
-> Look for elements that are common to both sets A and B.
-> 
 > A ∩ B = {3, 4}.
+
+Учитывает элементы из двух множеств, которые одновременно входят в эти два множеств
+
+
  - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5MTEwMTA0NCw1NzE3MTM4N119
+eyJoaXN0b3J5IjpbNTIxNDE2MjcyLDU3MTcxMzg3XX0=
 -->
