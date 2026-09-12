@@ -38,10 +38,15 @@ B = {3, 4, 5}
 
  - A - B. Разность множеств
  ![file](https://media.geeksforgeeks.org/wp-content/uploads/20250411172924735560/file.webp)
- Элементы которые входят только в А, и не входят в пересечени
- - 
+ Элементы которые входят только в А, и не входят в A ∩ B.
+ A = {1, 2, 3, 4, 5}
+ B = {2, 4, 6, 8}
+
+> A - B = {1, 3, 5}
+
+ - △ - Симметрическая разность
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTIxNzYzNzMsNDYzNTUyOTA4LDU3MT
-cxMzg3XX0=
+eyJoaXN0b3J5IjpbLTcwODYzNjE2OCw0NjM1NTI5MDgsNTcxNz
+EzODddfQ==
 -->
