@@ -35,20 +35,26 @@ B = {3, 4, 5}
 > A ∩ B = ∅
 
  - A - B. Разность множеств
+ 
  ![file](https://media.geeksforgeeks.org/wp-content/uploads/20250411172924735560/file.webp)
+ 
  Элементы которые входят только в А, и не входят в A ∩ B.
  A = {1, 2, 3, 4, 5}
  B = {2, 4, 6, 8}
 
 > A - B = {1, 3, 5}
 
+
  - △ - Симметрическая разность (A △ B или A ⊕ B)
+ 
 ![t_u_495](https://media.geeksforgeeks.org/wp-content/uploads/20250411174157863278/t_u_495.webp)
+
 A = {1, 2, 3}
 B = {3, 4, 5}
 Включает в себя все элементы A и B, но не включает их пересечение.
 
 > A △ B = {1, 2, 4, 5}
+
 
  - Дополнение множества
  
@@ -64,5 +70,5 @@ A = {1, 2, 5, 6}
 > A′ = {3, 4, 7, 8}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDI4Mzk5OTVdfQ==
+eyJoaXN0b3J5IjpbLTE0ODMyNDcxNV19
 -->
