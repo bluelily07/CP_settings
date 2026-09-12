@@ -27,9 +27,11 @@ B = {3, 4, 5}
 Пересечение можно вывести еще так: 
 (A ∩ B) = (A) + (B) – (A ∪ B)
 
+ - Непересекающиеся множества
+ ![6757](https://media.geeksforgeeks.org/wp-content/uploads/20250411172707663120/6757.webp)
+ Пересечение таких множеств равно 
 
- - Непересекающееся множество
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjAzOTMxODIsNTcxNzEzODddfQ==
+eyJoaXN0b3J5IjpbLTE4OTMwNjUwMzcsNTcxNzEzODddfQ==
 -->
