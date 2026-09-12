@@ -36,11 +36,12 @@ B = {3, 4, 5}
 
 > A ∩ B = ф
 
- - Разность множеств
+ - A - B. Разность множеств
  ![file](https://media.geeksforgeeks.org/wp-content/uploads/20250411172924735560/file.webp)
- 
+ Элементы которые входят только в А, и не входят в пересечени
  - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDYzNTUyOTA4LDU3MTcxMzg3XX0=
+eyJoaXN0b3J5IjpbLTEzOTIxNzYzNzMsNDYzNTUyOTA4LDU3MT
+cxMzg3XX0=
 -->
