@@ -4,9 +4,9 @@
 
 ## Перестановки
 
+**Перестановка** — это последовательность из n различных чисел от 1 до n. Для множества {1,2,…,n} перестановку можно задать массивом p, где p_i — образ элемента i.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzM0NTAyNjUsLTIwODg3NDY2MTJdfQ
-==
+eyJoaXN0b3J5IjpbLTcyMDA1NDI5OSwtMjA4ODc0NjYxMl19
 -->
