@@ -9,6 +9,7 @@
 **Операции над множеством:**
 
  - ∪ - Объединение множеств (A ∪ B)
+
  ![unit_u_495](https://media.geeksforgeeks.org/wp-content/uploads/20250411172445078226/unit_u_495.webp)
  
  A = {2, 3, 4}
@@ -92,5 +93,5 @@ A = {1, 2, 5, 6}
 > A′ = {3, 4, 7, 8}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5NTc0MjcwMSwxMTI2MDg5MzExXX0=
+eyJoaXN0b3J5IjpbNDkxNzQ2MjEzXX0=
 -->
