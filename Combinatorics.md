@@ -4,6 +4,9 @@
 
 ## Множества и операции над множествами 
 
+![set_operations](https://media.geeksforgeeks.org/wp-content/uploads/20260602140823678499/set_operations.webp)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzNTg5NzYzN119
+eyJoaXN0b3J5IjpbMTk3OTc2MDA2MV19
 -->
