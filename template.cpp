@@ -5,9 +5,12 @@ using namespace std;
 #define all(x) (x).begin(), (x).end()
 #define intmax INT_MAX
 #define intmin INT_MIN
+#define lmin LLONG_MIN
+#define lmax LLONG_MAX
 #define str string
 #define int128 __int128
 #define mod 998244353
+
 
 void solve() {
 
