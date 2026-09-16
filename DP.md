@@ -11,9 +11,19 @@
 Мемоизация - рекурсия с запоминанием результата. Проверяем, считали ли мы это состояние раньше? Если да - берем ответ из памяти, иначе считаем и записываем в память 
 
 ```cpp
+vector<ll> mem;
+vector<bool> visited;
+
+ll solve(int n) {
+    if (n <= 1) return n;
+    if (visited[n]) return mem[n];
+    visited[n] = true;
+    mem[n] = solve(n - 1) + solve(n - 2);
+    return mem[n];
+}
 
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODAyMzU2M119
+eyJoaXN0b3J5IjpbNTgwOTg1MDMzXX0=
 -->
