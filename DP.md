@@ -76,7 +76,31 @@ dp[i] = dp[i-1] + dp[i-2] + dp[i-k]
 ```
 При этом, важно чтобы позиция которую мы используем существовала, то есть была >= 0. - Это и есть переход состояний.
 
+    #include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+const ll MOD = 1e9 + 7;
+
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    int n, k;
+    cin >> n >> k;
+
+    vector<ll> dp(n + 1, 0);
+    dp[0] = 1;
+
+    for (int i = 1; i <= n; i++) {
+        if (i - 1 >= 0) dp[i] = (dp[i] + dp[i - 1]) % MOD;
+        if (i - 2 >= 0) dp[i] = (dp[i] + dp[i - 2]) % MOD;
+        if (i - k >= 0) dp[i] = (dp[i] + dp[i - k]) % MOD;
+    }
+
+    cout << dp[n] << "\n";
+}
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjA5OTM0NzksODU1ODMzMDk0LC0xNz
+eyJoaXN0b3J5IjpbLTE4MzUzODA5ODgsODU1ODMzMDk0LC0xNz
 E0MDk0MTRdfQ==
 -->
