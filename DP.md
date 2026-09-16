@@ -86,8 +86,8 @@ void solve() {
 
     for (int i = 1; i <= n; i++) {
         if (i - 1 >= 0) dp[i] = (dp[i] + dp[i - 1]);//первый способ попасть в позицию i, всегда true, тк у нас есть базовое состояние.
-        if (i - 2 >= 0) dp[i] = (dp[i] + dp[i - 2]);
-        if (i - k >= 0) dp[i] = (dp[i] + dp[i - k]);
+        if (i - 2 >= 0) dp[i] = (dp[i] + dp[i - 2]);//второй способ попасть в позицию i, если i>=2, переход возможен.
+        if (i - k >= 0) dp[i] = (dp[i] + dp[i - k]);//третий способ п
     }
 
     cout << dp[n] << "\n";
@@ -95,6 +95,6 @@ void solve() {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2Njc0MDk1Nyw4NTU4MzMwOTQsLTE3MT
-QwOTQxNF19
+eyJoaXN0b3J5IjpbLTE0MzU1NDMwNzMsODU1ODMzMDk0LC0xNz
+E0MDk0MTRdfQ==
 -->
