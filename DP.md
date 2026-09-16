@@ -8,8 +8,8 @@
 
 Примеры реализаций будут написаны для чисел Фибоначчи.
 
-**Формула чисел Фибоначчи** - ```fib[i] = fib[i-1] + fib[i-2]```
-где fib
+**Формула чисел Фибоначчи** - ```fib[i] = fib[i-1] + fib[i-2];```
+где ```fib[0] = 0; fib[1] = 1;```
 
 1. **Мемоизация**
 
@@ -40,5 +40,5 @@ for (int i = 2; i <= n; i++) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMjczNTU5NSwtMTcxNDA5NDE0XX0=
+eyJoaXN0b3J5IjpbLTE4NDYxMDk5MTMsLTE3MTQwOTQxNF19
 -->
