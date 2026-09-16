@@ -34,11 +34,11 @@ ll solve(int n) {
 ```cpp
 vector<ll> dp(n + 1)
 dp[0] = 0;
-if (n >= 1) dp[1] = 1;
+if (n >= 1) dp[1] = 1;//создаем вручную два базовых значения
 for (int i = 2; i <= n; i++) {
-    dp[i] = dp[i - 1] + dp[i - 2];
+    dp[i] = dp[i - 1] + dp[i - 2];//заполняем ДП без рекурсии на основе известных значений
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDYxMDk5MTMsLTE3MTQwOTQxNF19
+eyJoaXN0b3J5IjpbLTEyNDMyMzY0MjcsLTE3MTQwOTQxNF19
 -->
