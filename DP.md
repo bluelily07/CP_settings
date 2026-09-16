@@ -56,8 +56,10 @@ for (int i = 2; i <= n; i++) {
 
 ## Разбор задач на одномерное ДП
 
+  Существует прямая пронумерованная от 1 до n. Стоя на позиции i, можно прыгнуть на позиции i+1 или i+2
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgyNTA1Nzg5LDg1NTgzMzA5NCwtMTcxND
-A5NDE0XX0=
+eyJoaXN0b3J5IjpbLTY1OTY4NDA2Miw4NTU4MzMwOTQsLTE3MT
+QwOTQxNF19
 -->
