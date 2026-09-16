@@ -29,7 +29,7 @@ ll solve(int n) {
     if (n <= 1) return n;//базовый случай рекурсии (fib0 = 0, fib1 = 1)
     if (visited[n]) return mem[n];//Если мы уже считали это, то просто берем из памяти, не считая заново.
     visited[n] = true;//иначе ставим флаг посещенности 
-    mem[n] = solve(n - 1) + solve(n - 2);// и считаем 
+    mem[n] = solve(n - 1) + solve(n - 2);// и рекурсивно считаем 
     return mem[n];
 }
 ```
@@ -54,8 +54,10 @@ for (int i = 2; i <= n; i++) {
 5. При табуляции можно не хранить весь массив, а только необходимые элементы для подсчета ДП.
 6. При табуляции легче контролировать память 
 
+## Разбор задач на одномерное ДП
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTk3NzQ3NzcsODU1ODMzMDk0LC0xNz
-E0MDk0MTRdfQ==
+eyJoaXN0b3J5IjpbMjgyNTA1Nzg5LDg1NTgzMzA5NCwtMTcxND
+A5NDE0XX0=
 -->
