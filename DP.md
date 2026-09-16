@@ -39,6 +39,9 @@ for (int i = 2; i <= n; i++) {
     dp[i] = dp[i - 1] + dp[i - 2];//заполняем ДП без рекурсии на основе известных значений
 }
 ```
+
+**Пару слов об реализациях:**
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDMyMzY0MjcsLTE3MTQwOTQxNF19
+eyJoaXN0b3J5IjpbLTg3MzQ1OTA5NSwtMTcxNDA5NDE0XX0=
 -->
