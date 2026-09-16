@@ -82,10 +82,10 @@ void solve() {
     cin >> n >> k;
 
     vector<ll> dp(n + 1, 0);
-    dp[0] = 1;
+    dp[0] = 1;//базовое состояние
 
     for (int i = 1; i <= n; i++) {
-        if (i - 1 >= 0) dp[i] = (dp[i] + dp[i - 1]);
+        if (i - 1 >= 0) dp[i] = (dp[i] + dp[i - 1]);//первый способ попасть в позицию i, всегда true, тк у нас есть базовое состояние.
         if (i - 2 >= 0) dp[i] = (dp[i] + dp[i - 2]);
         if (i - k >= 0) dp[i] = (dp[i] + dp[i - k]);
     }
@@ -95,6 +95,6 @@ void solve() {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyOTI5Njk5MSw4NTU4MzMwOTQsLTE3MT
+eyJoaXN0b3J5IjpbLTY2Njc0MDk1Nyw4NTU4MzMwOTQsLTE3MT
 QwOTQxNF19
 -->
