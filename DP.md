@@ -21,9 +21,10 @@ ll solve(int n) {
     mem[n] = solve(n - 1) + solve(n - 2);
     return mem[n];
 }
-
 ```
+2. **Табуляция**
 
+Никакой рекурсии, считаем ДП и малых зна
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgwOTg1MDMzXX0=
+eyJoaXN0b3J5IjpbMTcxNjc0NjIwMF19
 -->
