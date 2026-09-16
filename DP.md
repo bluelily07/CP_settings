@@ -41,7 +41,9 @@ for (int i = 2; i <= n; i++) {
 ```
 
 **Пару слов об реализациях:**
-
+1. Чаще всего на практике - мемоизацию легче придумать.
+2. Мемоизация дороже табуляции из-за доп. вызовов функций, дороже по памяти
+3. При глубокой рекурсии 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3MzQ1OTA5NSwtMTcxNDA5NDE0XX0=
+eyJoaXN0b3J5IjpbMTExMTA5ODYyMiwtMTcxNDA5NDE0XX0=
 -->
