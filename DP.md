@@ -17,8 +17,8 @@ vector<ll> mem;
 vector<bool> visited;
 
 ll solve(int n) {
-    if (n <= 1) return n;
-    if (visited[n]) return mem[n];
+    if (n <= 1) return n;//базовый случай рекурсии (fib0 = 0, fib1 = 1)
+    if (visited[n]) return mem[n];//Если мы уже считали
     visited[n] = true;
     mem[n] = solve(n - 1) + solve(n - 2);
     return mem[n];
@@ -37,5 +37,5 @@ for (int i = 2; i <= n; i++) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Njc3Nzk5MzksLTE3MTQwOTQxNF19
+eyJoaXN0b3J5IjpbLTE5MDMzNzY5NjMsLTE3MTQwOTQxNF19
 -->
