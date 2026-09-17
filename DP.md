@@ -94,12 +94,12 @@ void solve() {
 }
 ```
 
-
+**Разборы задач я вынес в отдельный файл SolvingDP.md, чтобы не флудить в этом конспекте, здесь будет преимущественно теория.**
 
 ## Оптимизации одномерного ДП
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTUwNzQ5MDAsLTg1Nzg0OTIwOF19
+eyJoaXN0b3J5IjpbLTQzMTQxNzQxMl19
 -->
