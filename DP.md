@@ -94,10 +94,12 @@ void solve() {
 }
 ```
 
+
+
 ## Оптимизации одномерного ДП
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1Nzg0OTIwOF19
+eyJoaXN0b3J5IjpbLTE3OTUwNzQ5MDAsLTg1Nzg0OTIwOF19
 -->
