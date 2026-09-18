@@ -17,11 +17,40 @@ void solve() {
         prev = prev2;//двигаемся вперед dp[i-2] = dp[i-1]
         prev2 = cur;//dp[i-1] = dp[i]
     }
-    cout << prev2 << '\n';//вывод от
+    cout << prev2 << '\n';//dp[n]
 }
 ```
 
+## B - Зайчик
+```cpp
+int define(char x){// функция 
+    if(x == 'w')return -1001;
+    else if(x == '.')return 0;
+    else return 1;
+}
+
+void solve() {
+    int n;
+    cin >> n;
+    str s;
+    cin >> s;
+    vector<int> dp(n);
+
+    
+    dp[0] = define(s[0]);
+     
+    for(int i = 1; i < n; i++){
+        int mx = dp[i-1];
+        if(i-3 >= 0)mx = max(mx, dp[i-3]);
+        if(i-5 >= 0)mx = max(mx, dp[i-5]);
+
+        dp[i] = mx + define(s[i]);
+    }
+    if(dp[n-1] >= 0)cout << dp[n-1] << '\n';
+    else cout << -1 << '\n';   
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODA3NjM0ODMsLTE1Mzk1NTg3MDQsLT
+eyJoaXN0b3J5IjpbLTE0MzA5Nzg0NzYsLTE1Mzk1NTg3MDQsLT
 QxNDE4MDUxNiwtMjA4ODc0NjYxMl19
 -->
