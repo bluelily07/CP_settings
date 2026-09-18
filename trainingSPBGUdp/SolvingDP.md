@@ -1,4 +1,5 @@
 ## А - Лестница
+
 ```cpp
 void solve() {
     int n;
@@ -10,9 +11,9 @@ void solve() {
 	//вместо хранения вектора дп, храним всего два элемента
 	//тк для решения задачи нам нужно всего два последних элемента
     for(int i = 2; i <= n; i++){
-        int a2;
-        cin >> a2;
-        int cur = a2 + max(prev, prev2);
+        int a;
+        cin >> a;
+        int cur = a + max(prev, prev2);
         prev = prev2;
         prev2 = cur;
     }
@@ -21,6 +22,6 @@ void solve() {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2Mzc5NTg5MCwtNDE0MTgwNTE2LC0yMD
-g4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTE1Mzk1NTg3MDQsLTQxNDE4MDUxNiwtMj
+A4ODc0NjYxMl19
 -->
