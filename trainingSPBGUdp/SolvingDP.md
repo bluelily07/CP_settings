@@ -34,12 +34,12 @@ void solve() {
     cin >> n;
     str s;
     cin >> s;
-    vector<int> dp(n);
+    vector<int> dp(n);//можно использовать 3 переменные как в прошлой задаче, чтобы не хранить весь массив
 
     
-    dp[0] = define(s[0]);
+    dp[0] = define(s[0]);//базовый случай
      
-    for(int i = 1; i < n; i++){
+    for(int i = 1; i < n; i++){//dp[1] начало
         int mx = dp[i-1];
         if(i-3 >= 0)mx = max(mx, dp[i-3]);
         if(i-5 >= 0)mx = max(mx, dp[i-5]);
@@ -51,6 +51,6 @@ void solve() {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTMxNzA3NDYsLTE1Mzk1NTg3MDQsLT
-QxNDE4MDUxNiwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTE0Mzc3MTc1NiwtMTUzOTU1ODcwNCwtND
+E0MTgwNTE2LC0yMDg4NzQ2NjEyXX0=
 -->
