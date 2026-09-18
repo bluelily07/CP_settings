@@ -86,8 +86,8 @@ void solve() {
     dp[0] = 0;//база
     
 
-    for(int i = 1; i < n; i++){//dp[1]
-        if(s[i] == '0')dp[i] = intmax;//если в текущей клетке 
+    for(int i = 1; i < n; i++){//dp[1] - старт
+        if(s[i] == '0')dp[i] = intmax;//если в текущей клетке нету лилии, ставим маркер недостижимости
         else{
             int best = intmax;
             for(int j = max(0, i-d); j <= i-1; j++){
@@ -106,6 +106,6 @@ void solve() {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMjI1ODA5NywxNTE5NDU0NzM1LC0xNT
+eyJoaXN0b3J5IjpbMTcyMzQ2ODE4OCwxNTE5NDU0NzM1LC0xNT
 M5NTU4NzA0LC00MTQxODA1MTYsLTIwODg3NDY2MTJdfQ==
 -->
