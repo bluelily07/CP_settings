@@ -74,8 +74,38 @@ void solve() {
 
 В противном случае, выведите минимальное количество прыжков, которые нужно сделать лягушке, чтобы попасть из точки  1  в точку  _n_.
 
-**Рассмотрим решение 
+**Рассмотрим решение этой задачи через ДП**
+```cpp
+void solve() {
+    int n, d;
+    cin >> n >> d;
+    str s;
+    cin >> s;
+
+    vector<int> dp(n);
+    dp[0] = 0;//база
+    
+
+    for(int i = 1; i < n; i++){//dp[1]
+        if(s[i] == '0')dp[i] = intmax;//если в текущей клетке 
+        else{
+            int best = intmax;
+            for(int j = max(0, i-d); j <= i-1; j++){
+                if(dp[j] != intmax){
+                    best = min(best, dp[j]);
+                }
+            }
+            if(best == intmax)dp[i] = intmax;
+            else dp[i] = best+1;
+        }
+    }
+
+    cout << (dp[n-1] == intmax ? -1 : dp[n-1]) << '\n';
+
+}
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MTkxMzcxNywxNTE5NDU0NzM1LC0xNT
+eyJoaXN0b3J5IjpbMTAzMjI1ODA5NywxNTE5NDU0NzM1LC0xNT
 M5NTU4NzA0LC00MTQxODA1MTYsLTIwODg3NDY2MTJdfQ==
 -->
