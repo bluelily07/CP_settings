@@ -50,7 +50,15 @@ void solve() {
     else cout << -1 << '\n';//если ответ отрицательный - получили маркер недостижимости, ответа нет
 }
 ```
+
+## Путь домой (не из тренинга)
+**ограничение по времени на тест
+1 секунда
+
+ограничение по памяти на тест
+
+256 мегабайт**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxOTQ1NDczNSwtMTUzOTU1ODcwNCwtND
-E0MTgwNTE2LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTE1NjE2NDk5MzksMTUxOTQ1NDczNSwtMT
+UzOTU1ODcwNCwtNDE0MTgwNTE2LC0yMDg4NzQ2NjEyXX0=
 -->
