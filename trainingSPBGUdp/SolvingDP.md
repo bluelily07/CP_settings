@@ -24,7 +24,7 @@ void solve() {
 ## B - Зайчик
 ```cpp
 int define(char x){// функция перевода для удобства
-    if(x == 'w')return -1001;//тк n <= 1000, берем -1001 как маркер недостежимости
+    if(x == 'w')return -1001;//тк n <= 1000, берем -1001 как маркер недостижимости
     else if(x == '.')return 0;
     else return 1;
 }
@@ -51,6 +51,6 @@ void solve() {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Mzc3MTc1NiwtMTUzOTU1ODcwNCwtND
-E0MTgwNTE2LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTEyNTEzOTc5MDMsLTE1Mzk1NTg3MDQsLT
+QxNDE4MDUxNiwtMjA4ODc0NjYxMl19
 -->
