@@ -90,8 +90,9 @@ void solve() {
         if(s[i] == '0')dp[i] = intmax;//если в текущей клетке нету лилии, ставим маркер недостижимости
         else{
             int best = intmax;//маркер лучшего предка пока не нашли
-            for(int j = max(0, i-d); j <= i-1; j++){//рассматриваем всех предков для i
-            //
+            for(int j = max(0, i-d); j <= i-1; j++){//рассматриваем всех предков для i в диапазоне прыжка 
+            //j = max(0, i-d) если i-d отрицательно, берем ноль, чтобы не выйти за границы
+            //j <= i-1 идем строго до i-1, потому-что мы рассматриваем именно предков i.
                 if(dp[j] != intmax){
                     best = min(best, dp[j]);
                 }
@@ -107,6 +108,6 @@ void solve() {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTYzOTg3NiwxNTE5NDU0NzM1LC0xNT
+eyJoaXN0b3J5IjpbLTM1MTYyNzQ5NiwxNTE5NDU0NzM1LC0xNT
 M5NTU4NzA0LC00MTQxODA1MTYsLTIwODg3NDY2MTJdfQ==
 -->
