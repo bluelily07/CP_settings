@@ -97,7 +97,7 @@ void solve() {
                     best = min(best, dp[j]);//в лучшего предка записываем наименьшее кол--во прыжков
                 }
             }
-            if(best == intmax)dp[i] = intmax;//если не нашли такого предка, то на текущую клетку не попасть
+            if(best == intmax)dp[i] = intmax;//если не нашли такого предка, то на текущую клетку не попасть, даже если там есть лилия
             else dp[i] = best+1;//иначе добавляем один прыжок
         }
     }
@@ -108,6 +108,6 @@ void solve() {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUwNzEyOTA3LDE1MTk0NTQ3MzUsLTE1Mz
-k1NTg3MDQsLTQxNDE4MDUxNiwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTE3MDkzMzU0NzQsMTUxOTQ1NDczNSwtMT
+UzOTU1ODcwNCwtNDE0MTgwNTE2LC0yMDg4NzQ2NjEyXX0=
 -->
