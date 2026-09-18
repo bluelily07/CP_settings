@@ -93,12 +93,12 @@ void solve() {
             for(int j = max(0, i-d); j <= i-1; j++){//рассматриваем всех предков для i в диапазоне прыжка 
             //j = max(0, i-d) если i-d отрицательно, берем ноль, чтобы не выйти за границы
             //j <= i-1 идем строго до i-1, потому-что мы рассматриваем именно предков i.
-                if(dp[j] != intmax){
-                    best = min(best, dp[j]);
+                if(dp[j] != intmax){//если лилия есть
+                    best = min(best, dp[j]);//в лучшего предка записываем наименьшее кол--во прыжков
                 }
             }
-            if(best == intmax)dp[i] = intmax;
-            else dp[i] = best+1;
+            if(best == intmax)dp[i] = intmax;//если не нашли такого предка, то на текущую клетку не попасть
+            else dp[i] = best+1;//иначе добавляем один прыжок
         }
     }
 
@@ -108,6 +108,6 @@ void solve() {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MTYyNzQ5NiwxNTE5NDU0NzM1LC0xNT
-M5NTU4NzA0LC00MTQxODA1MTYsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbNDUwNzEyOTA3LDE1MTk0NTQ3MzUsLTE1Mz
+k1NTg3MDQsLTQxNDE4MDUxNiwtMjA4ODc0NjYxMl19
 -->
