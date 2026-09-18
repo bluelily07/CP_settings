@@ -40,17 +40,17 @@ void solve() {
     dp[0] = define(s[0]);//базовый случай
      
     for(int i = 1; i < n; i++){//dp[1] начало
-        int mx = dp[i-1];
+        int mx = dp[i-1];//начинаем считать максимум, dp[0] существует всегда, if не нужен
         if(i-3 >= 0)mx = max(mx, dp[i-3]);
-        if(i-5 >= 0)mx = max(mx, dp[i-5]);
+        if(i-5 >= 0)mx = max(mx, dp[i-5]);//выбираем максимум из доступных предков
 
-        dp[i] = mx + define(s[i]);
+        dp[i] = mx + define(s[i]);//добавляем к максимальному предку текущую клетку.
     }
-    if(dp[n-1] >= 0)cout << dp[n-1] << '\n';
+    if(dp[n-1] >= 0)cout << dp[n-1] << '\n';//если 
     else cout << -1 << '\n';   
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTEzOTc5MDMsLTE1Mzk1NTg3MDQsLT
-QxNDE4MDUxNiwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTY4MTA0Mjc2NSwtMTUzOTU1ODcwNCwtND
+E0MTgwNTE2LC0yMDg4NzQ2NjEyXX0=
 -->
