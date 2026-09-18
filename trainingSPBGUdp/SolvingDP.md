@@ -13,15 +13,15 @@ void solve() {
     for(int i = 2; i <= n; i++){//начинаем с dp[2]
         int a;
         cin >> a;//стоимость i ступеньки
-        int cur = a + max(prev, prev2);//дп переход, стоимость текущей ступеньки + максимум из dp[i-1] dp[i-2],
-        prev = prev2;
-        prev2 = cur;
+        int cur = a + max(prev, prev2);//дп переход, стоимость текущей ступеньки + максимум из dp[i-1] dp[i-2], в i мы можем попасть только двумя способами.
+        prev = prev2;//двигаемся вперед dp[i-2] = dp[i-1]
+        prev2 = cur;//dp[i-1] = dp[i]
     }
-    cout << prev2 << '\n';
+    cout << prev2 << '\n';//вывод от
 }
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI4MzA2MDA1LC0xNTM5NTU4NzA0LC00MT
-QxODA1MTYsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTEyODA3NjM0ODMsLTE1Mzk1NTg3MDQsLT
+QxNDE4MDUxNiwtMjA4ODc0NjYxMl19
 -->
