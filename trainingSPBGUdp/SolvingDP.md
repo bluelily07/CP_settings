@@ -5,11 +5,10 @@ void solve() {
     cin >> n;
     
     int prev = 0;
-    int a;
-    cin >> a;
-
-    int prev2 = a;
-
+    int prev2;
+    cin >> prev2;
+	//вместо хранения вектора дп, храним всего два элемента
+	//тк для решения задачи нам нужно всего два последних элемента
     for(int i = 2; i <= n; i++){
         int a2;
         cin >> a2;
@@ -22,5 +21,6 @@ void solve() {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNDE4MDUxNiwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTU2Mzc5NTg5MCwtNDE0MTgwNTE2LC0yMD
+g4NzQ2NjEyXX0=
 -->
