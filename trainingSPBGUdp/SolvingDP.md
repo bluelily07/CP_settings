@@ -5,7 +5,7 @@ void solve() {
     int n;
     cin >> n;
     
-    int prev = 0;
+    int prev = 0;//базовый случай (dp[0] = 0)
     int prev2;
     cin >> prev2;
 	//вместо хранения вектора дп, храним всего два элемента
@@ -22,6 +22,6 @@ void solve() {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mzk1NTg3MDQsLTQxNDE4MDUxNiwtMj
-A4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbNzgwMTQ1Nzk3LC0xNTM5NTU4NzA0LC00MT
+QxODA1MTYsLTIwODg3NDY2MTJdfQ==
 -->
