@@ -34,7 +34,7 @@ void solve() {
     cin >> n;
     str s;
     cin >> s;
-    vector<int> dp(n);//можно использовать 3 переменные как в прошлой задаче, чтобы не хранить весь массив
+    vector<int> dp(n);//можно использовать 5 переменные для оптимизации памяти как в прошлой задаче, чтобы не хранить весь массив
 
     
     dp[0] = define(s[0]);//базовый случай
@@ -46,11 +46,11 @@ void solve() {
 
         dp[i] = mx + define(s[i]);//добавляем к максимальному предку текущую клетку.
     }
-    if(dp[n-1] >= 0)cout << dp[n-1] << '\n';//если 
-    else cout << -1 << '\n';   
+    if(dp[n-1] >= 0)cout << dp[n-1] << '\n';
+    else cout << -1 << '\n';//если ответ отрицательный - получили маркер недостижимости, ответа нет
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4MTA0Mjc2NSwtMTUzOTU1ODcwNCwtND
+eyJoaXN0b3J5IjpbMTUxOTQ1NDczNSwtMTUzOTU1ODcwNCwtND
 E0MTgwNTE2LC0yMDg4NzQ2NjEyXX0=
 -->
