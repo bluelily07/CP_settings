@@ -108,12 +108,12 @@ void solve() {
     cin >> n >> k;
 
     vector<ll> dp(n + 1, 0);
-    dp[0] = 1;       // базовое состояние
-    ll window = 0;   // сумма dp[i-k .. i-1]
+    dp[0] = 1;//база
+    ll window = 0;//наше окно с суммой i-k до i-1 (то есть, все возможные предки)
 
     for (int i = 1; i <= n; i++) {
-        window = (window + dp[i - 1]) % MOD;                       // добавили правый элемент
-        if (i - k - 1 >= 0) window = (window - dp[i - k - 1] + MOD) % MOD;  // убрали вышедший слева
+        window = (window + dp[i - 1]) % mod;                       // добавили правый элемент
+        if (i - k - 1 >= 0) window = (window - dp[i - k - 1] + mod) % mod;  // убрали вышедший слева
         dp[i] = window;
     }
 
@@ -124,6 +124,6 @@ void solve() {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NTI4MjQ3MiwxNDQ0NTUxOTUzLC0xND
+eyJoaXN0b3J5IjpbLTM0NTcwNTY2NiwxNDQ0NTUxOTUzLC0xND
 UyMzY5OTc2LC00MzE0MTc0MTJdfQ==
 -->
