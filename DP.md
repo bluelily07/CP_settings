@@ -152,9 +152,30 @@ void solve() {
 ```
 Итак, оптимизация окном тут не сработает, ведь у нас не сумма на отрезке, а поиск минимума на отрезке.
 
-Решение: будем использовать монотонный дек который будет хранить индексы минимумов в окне по не убыванию, мы всегда знаем когда вышел текущий минимум 
+Решение: будем использовать монотонный дек который будет хранить индексы минимумов в окне по не убыванию, мы всегда знаем когда вышел текущий минимум на отрезке и какой текущий минимум.
+
+```cpp
+void solve() {
+    int n, k;
+    cin >> n >> k;
+    vector<ll> a(n), dp(n);
+    for (auto& x : a) cin >> x;
+
+    deque<int> dq;      // индексы, dp[] по ним строго возрастает
+    dp[0] = a[0];
+    dq.push_back(0);
+
+    for (int i = 1; i < n; i++) {
+        while (dq.front() < i - k) dq.pop_front();                   // (1)
+        dp[i] = a[i] + dp[dq.front()];                               // (2)
+        while (!dq.empty() && dp[dq.back()] >= dp[i]) dq.pop_back(); // (3)
+        dq.push_back(i);                                             // (4)
+    }
+    cout << dp[n - 1] << "\n";
+}
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3OTAxODYzMSw2NDQ2MDc4NjUsMTQ0ND
-U1MTk1MywtMTQ1MjM2OTk3NiwtNDMxNDE3NDEyXX0=
+eyJoaXN0b3J5IjpbLTExNjg3MjAzMzYsNjQ0NjA3ODY1LDE0ND
+Q1NTE5NTMsLTE0NTIzNjk5NzYsLTQzMTQxNzQxMl19
 -->
