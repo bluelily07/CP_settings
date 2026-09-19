@@ -120,10 +120,14 @@ void solve() {
     cout << dp[n] << "\n";//итого O(n) вместо O(nk) 
 }
 ```
+**Монотонный дек**
+## Задача
+
+Есть `n` клеток, у клетки `i` цена `a[i]`. Стартуем в клетке 0 и платим `a[0]`. За прыжок можно перейти на 1..k клеток вперёд, и мы платим цену клетки, в которую попали. Нужна минимальная стоимость дойти до клетки `n-1`.
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ0NjA3ODY1LDE0NDQ1NTE5NTMsLTE0NT
-IzNjk5NzYsLTQzMTQxNzQxMl19
+eyJoaXN0b3J5IjpbMTk2MDY5NjI0NCw2NDQ2MDc4NjUsMTQ0ND
+U1MTk1MywtMTQ1MjM2OTk3NiwtNDMxNDE3NDEyXX0=
 -->
