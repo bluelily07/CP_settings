@@ -176,6 +176,5 @@ void solve() {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMxMDA5MDg1LDY0NDYwNzg2NSwxNDQ0NT
-UxOTUzLC0xNDUyMzY5OTc2LC00MzE0MTc0MTJdfQ==
+eyJoaXN0b3J5IjpbNzMxMDA5MDg1XX0=
 -->
