@@ -167,7 +167,7 @@ void solve() {
 
     for (int i = 1; i < n; i++) {
         while (dq.front() < i - k) dq.pop_front();//если минимум вышел из диапазона, удаляем
-        dp[i] = a[i] + dp[dq.front()];                               // (2)
+        dp[i] = a[i] + dp[dq.front()];//фиксируем ДП, текущую цену + минимум диапазона
         while (!dq.empty() && dp[dq.back()] >= dp[i]) dq.pop_back(); // (3)
         dq.push_back(i);                                             // (4)
     }
@@ -176,6 +176,6 @@ void solve() {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1MDU2MTIzNyw2NDQ2MDc4NjUsMTQ0ND
+eyJoaXN0b3J5IjpbLTg5NzAwODYwNyw2NDQ2MDc4NjUsMTQ0ND
 U1MTk1MywtMTQ1MjM2OTk3NiwtNDMxNDE3NDEyXX0=
 -->
