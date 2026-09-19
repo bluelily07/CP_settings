@@ -121,13 +121,16 @@ void solve() {
 }
 ```
 **Монотонный дек**
-## Задача
+#### Задача
 
 Есть `n` клеток, у клетки `i` цена `a[i]`. Стартуем в клетке 0 и платим `a[0]`. За прыжок можно перейти на 1..k клеток вперёд, и мы платим цену клетки, в которую попали. Нужна минимальная стоимость дойти до клетки `n-1`.
 
 
+Значит, нам нужно как можно дешевле добраться до n-1. Получаем:
+
+    dp[i] = a[i] + 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MDY5NjI0NCw2NDQ2MDc4NjUsMTQ0ND
-U1MTk1MywtMTQ1MjM2OTk3NiwtNDMxNDE3NDEyXX0=
+eyJoaXN0b3J5IjpbLTIwNTE5Nzg1MDMsNjQ0NjA3ODY1LDE0ND
+Q1NTE5NTMsLTE0NTIzNjk5NzYsLTQzMTQxNzQxMl19
 -->
