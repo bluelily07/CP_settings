@@ -98,10 +98,12 @@ void solve() {
 
 ## Оптимизации одномерного ДП
 
+**Sliding window**
+Вспомним задачу прошлую задачу которую мы разбирали. Тогда, у нас было всего 3 варианта как попасть в i позицию, а что, если у нас будет k ва
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjQ1NTczMjIsLTE0NTIzNjk5NzYsLT
-QzMTQxNzQxMl19
+eyJoaXN0b3J5IjpbODg4MDM0MDA4LC0xNDUyMzY5OTc2LC00Mz
+E0MTc0MTJdfQ==
 -->
