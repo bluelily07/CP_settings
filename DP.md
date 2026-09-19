@@ -159,14 +159,14 @@ void solve() {
     int n, k;
     cin >> n >> k;
     vector<ll> a(n), dp(n);
-    for (auto& x : a) cin >> x;
+    for(int i = 0; i < n; i++)cin >> a[i];
 
-    deque<int> dq;      // индексы, dp[] по ним строго возрастает
+    deque<int> dq;//дек
     dp[0] = a[0];
-    dq.push_back(0);
+    dq.push_back(0);//база
 
     for (int i = 1; i < n; i++) {
-        while (dq.front() < i - k) dq.pop_front();                   // (1)
+        while (dq.front() < i - k) dq.pop_front();//если минимум вышел из диапазона, удаляем
         dp[i] = a[i] + dp[dq.front()];                               // (2)
         while (!dq.empty() && dp[dq.back()] >= dp[i]) dq.pop_back(); // (3)
         dq.push_back(i);                                             // (4)
@@ -176,6 +176,6 @@ void solve() {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjg3MjAzMzYsNjQ0NjA3ODY1LDE0ND
-Q1NTE5NTMsLTE0NTIzNjk5NzYsLTQzMTQxNzQxMl19
+eyJoaXN0b3J5IjpbLTI1MDU2MTIzNyw2NDQ2MDc4NjUsMTQ0ND
+U1MTk1MywtMTQ1MjM2OTk3NiwtNDMxNDE3NDEyXX0=
 -->
