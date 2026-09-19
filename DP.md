@@ -128,9 +128,11 @@ void solve() {
 
 Значит, нам нужно как можно дешевле добраться до n-1. Получаем:
 
-    dp[i] = a[i] + 
+    dp[i] = a[i] + min(dp[j]) где j это предок i в диапазоне i-k до i-1;
+
+**решение без оптимизации O(nk)**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTE5Nzg1MDMsNjQ0NjA3ODY1LDE0ND
-Q1NTE5NTMsLTE0NTIzNjk5NzYsLTQzMTQxNzQxMl19
+eyJoaXN0b3J5IjpbLTQ1MjY0OTI5LDY0NDYwNzg2NSwxNDQ0NT
+UxOTUzLC0xNDUyMzY5OTc2LC00MzE0MTc0MTJdfQ==
 -->
