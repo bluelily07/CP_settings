@@ -102,7 +102,7 @@ void solve() {
 Вспомним задачу прошлую задачу которую мы разбирали. Тогда, у нас было всего 3 варианта как попасть в i позицию, а что, если у нас будет k вариантов попасть в i позицию? Писать if не вариант, тогда будем считать сумму в окне
 
 ```cpp
-#define mod 998244353
+#define mod 998244353//считаем все по модулю, что-бы не получить overflow
 void solve() {
     int n, k;
     cin >> n >> k;
@@ -112,7 +112,7 @@ void solve() {
     ll window = 0;//наше окно с суммой i-k до i-1 (то есть, все возможные предки)
 
     for (int i = 1; i <= n; i++) {
-        window = (window + dp[i - 1]) % mod;                       // добавили правый элемент
+        window = (window + dp[i - 1]) % mod;//добавляем предка
         if (i - k - 1 >= 0) window = (window - dp[i - k - 1] + mod) % mod;  // убрали вышедший слева
         dp[i] = window;
     }
@@ -124,6 +124,6 @@ void solve() {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NTcwNTY2NiwxNDQ0NTUxOTUzLC0xND
-UyMzY5OTc2LC00MzE0MTc0MTJdfQ==
+eyJoaXN0b3J5IjpbNDYwNjQ1MzAyLDE0NDQ1NTE5NTMsLTE0NT
+IzNjk5NzYsLTQzMTQxNzQxMl19
 -->
