@@ -150,9 +150,11 @@ void solve() {
     cout << dp[n - 1] << "\n";
 }
 ```
-Итак, оптимизация окном тут не сработает, ведь у нас не сумма на отрезке, а поиск минимума на отрезке
+Итак, оптимизация окном тут не сработает, ведь у нас не сумма на отрезке, а поиск минимума на отрезке.
+
+Решение: будем использовать монотонный дек который будет хранить индексы минимумов в окне по не убыванию, мы всегда знаем когда вышел текущий минимум 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY1MjkwNTczLDY0NDYwNzg2NSwxNDQ0NT
-UxOTUzLC0xNDUyMzY5OTc2LC00MzE0MTc0MTJdfQ==
+eyJoaXN0b3J5IjpbMjA3OTAxODYzMSw2NDQ2MDc4NjUsMTQ0ND
+U1MTk1MywtMTQ1MjM2OTk3NiwtNDMxNDE3NDEyXX0=
 -->
