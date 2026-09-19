@@ -113,7 +113,7 @@ void solve() {
 
     for (int i = 1; i <= n; i++) {
         window = (window + dp[i - 1]) % mod;//добавляем предка
-        if (i - k - 1 >= 0) window = (window - dp[i - k - 1] + mod) % mod;  // убрали вышедший слева
+        if (i - k - 1 >= 0) window = (window - dp[i - k - 1] + mod) % mod;//если самый первый предок вышел за диапазон, вычитаем его 
         dp[i] = window;
     }
 
@@ -124,6 +124,6 @@ void solve() {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDYwNjQ1MzAyLDE0NDQ1NTE5NTMsLTE0NT
-IzNjk5NzYsLTQzMTQxNzQxMl19
+eyJoaXN0b3J5IjpbLTE0OTQ0ODY1MjksMTQ0NDU1MTk1MywtMT
+Q1MjM2OTk3NiwtNDMxNDE3NDEyXX0=
 -->
