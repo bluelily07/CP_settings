@@ -117,13 +117,13 @@ void solve() {
         dp[i] = window;//фиксируем ДП
     }
 
-    cout << dp[n] << "\n";//итого O(n) вместо O
+    cout << dp[n] << "\n";//итого O(n) вместо O(nk), так еще и кода меньше написано 
 }
 ```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMTgxODQ4NiwxNDQ0NTUxOTUzLC0xND
+eyJoaXN0b3J5IjpbMTE4NjQyMTY3MCwxNDQ0NTUxOTUzLC0xND
 UyMzY5OTc2LC00MzE0MTc0MTJdfQ==
 -->
