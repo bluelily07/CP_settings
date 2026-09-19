@@ -168,14 +168,14 @@ void solve() {
     for (int i = 1; i < n; i++) {
         while (dq.front() < i - k) dq.pop_front();//если минимум вышел из диапазона, удаляем
         dp[i] = a[i] + dp[dq.front()];//фиксируем ДП, текущую цену + минимум диапазона
-        while (!dq.empty() && dp[dq.back()] >= dp[i]) dq.pop_back(); // (3)
-        dq.push_back(i);                                             // (4)
+        while (!dq.empty() && dp[dq.back()] >= dp[i]) dq.pop_back();//удаляем все элементы из дека которые меньше текущего значения, тк они пришли позже и меньше текущего, они никогда не понадобятся.
+        dq.push_back(i);//добавляем новый элемент в дек
     }
     cout << dp[n - 1] << "\n";
 }
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5NzAwODYwNyw2NDQ2MDc4NjUsMTQ0ND
+eyJoaXN0b3J5IjpbMTQyNjU2MTk4Niw2NDQ2MDc4NjUsMTQ0ND
 U1MTk1MywtMTQ1MjM2OTk3NiwtNDMxNDE3NDEyXX0=
 -->
