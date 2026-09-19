@@ -150,8 +150,9 @@ void solve() {
     cout << dp[n - 1] << "\n";
 }
 ```
+Итак, оптимизация окном тут не сработает, ведь у нас не сумма на отрезке, а поиск минимума на отрезке
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc5MTQxOTQ3LDY0NDYwNzg2NSwxNDQ0NT
+eyJoaXN0b3J5IjpbOTY1MjkwNTczLDY0NDYwNzg2NSwxNDQ0NT
 UxOTUzLC0xNDUyMzY5OTc2LC00MzE0MTc0MTJdfQ==
 -->
