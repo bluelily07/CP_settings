@@ -101,9 +101,29 @@ void solve() {
 **Sliding window**
 Вспомним задачу прошлую задачу которую мы разбирали. Тогда, у нас было всего 3 варианта как попасть в i позицию, а что, если у нас будет k вариантов попасть в i позицию? Писать if не вариант, тогда будем считать сумму в окне
 
+```cpp
+#define mod 998244353
+void solve() {
+    int n, k;
+    cin >> n >> k;
+
+    vector<ll> dp(n + 1, 0);
+    dp[0] = 1;       // базовое состояние
+    ll window = 0;   // сумма dp[i-k .. i-1]
+
+    for (int i = 1; i <= n; i++) {
+        window = (window + dp[i - 1]) % MOD;                       // добавили правый элемент
+        if (i - k - 1 >= 0) window = (window - dp[i - k - 1] + MOD) % MOD;  // убрали вышедший слева
+        dp[i] = window;
+    }
+
+    cout << dp[n] << "\n";
+}
+```
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0NDU1MTk1MywtMTQ1MjM2OTk3NiwtND
-MxNDE3NDEyXX0=
+eyJoaXN0b3J5IjpbLTg4NTI4MjQ3MiwxNDQ0NTUxOTUzLC0xND
+UyMzY5OTc2LC00MzE0MTc0MTJdfQ==
 -->
