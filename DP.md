@@ -132,7 +132,26 @@ void solve() {
 
 **решение без оптимизации O(nk)**
 
+```cpp
+void solve() {
+    int n, k;
+    cin >> n >> k;
+    vector<ll> a(n), dp(n);
+    for (auto& x : a) cin >> x;
+
+    dp[0] = a[0];
+    for (int i = 1; i < n; i++) {
+        ll best = lmax;
+        for (int j = max(0, i - k); j < i; j++) {
+            best = min(best, dp[j]);
+        }
+        dp[i] = a[i] + best;
+    }
+    cout << dp[n - 1] << "\n";
+}
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MjY0OTI5LDY0NDYwNzg2NSwxNDQ0NT
+eyJoaXN0b3J5IjpbOTg1NzExNDM4LDY0NDYwNzg2NSwxNDQ0NT
 UxOTUzLC0xNDUyMzY5OTc2LC00MzE0MTc0MTJdfQ==
 -->
