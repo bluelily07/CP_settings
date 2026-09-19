@@ -138,19 +138,20 @@ void solve() {
     cin >> n >> k;
     vector<ll> a(n), dp(n);
     for(int i = 0; i < n; i++)cin >> a[i];
-    dp[0] = a[0];
+    
+    dp[0] = a[0];//база
     for (int i = 1; i < n; i++) {
-        ll best = lmax;
+        ll best = lmax;//пока не нашли лучшего предка
         for (int j = max(0, i - k); j < i; j++) {
-            best = min(best, dp[j]);
+            best = min(best, dp[j]);//перебираем весь диапазон k и ищем лучшего предка
         }
-        dp[i] = a[i] + best;
+        dp[i] = a[i] + best;//фиксируем ДП
     }
     cout << dp[n - 1] << "\n";
 }
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMDIwNTU5LDY0NDYwNzg2NSwxNDQ0NT
+eyJoaXN0b3J5IjpbNDc5MTQxOTQ3LDY0NDYwNzg2NSwxNDQ0NT
 UxOTUzLC0xNDUyMzY5OTc2LC00MzE0MTc0MTJdfQ==
 -->
