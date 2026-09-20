@@ -23,9 +23,9 @@
 **unordered_map** - Хеш таблица, нету порядка элементов, нету бин поиска
 
 
-**priority_queue** - Двоичная куча
+**priority_queue** - Двоичная куча, добавление, удаление - O(logn), взятие максимального/минимального элемента (max-heap/min-heap) - O(1).
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzE1NzA2NTVdfQ==
+eyJoaXN0b3J5IjpbMTQxNjkzNDc2MV19
 -->
