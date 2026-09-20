@@ -39,8 +39,10 @@ pref[i] = pref[i-1] + a[i];
 
     pref[r] - pref[l-1];
 
+Разностный массив - обратная операция к префиксным суммам
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQyNDI3MjUsMTQxNjkzNDc2MV19
+eyJoaXN0b3J5IjpbMzExNDEwNjAxLDE0MTY5MzQ3NjFdfQ==
 -->
