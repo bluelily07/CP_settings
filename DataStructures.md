@@ -45,9 +45,10 @@ pref[i] = pref[i-1] + a[i];
     d[i] = a[i] - a[i-1];
 
 
+Первый элемент так же 0. То есть, разноспоказывает, на сколько значение в позиции `i` отличается от соседа слева. Например:
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTc3NjUxNzUsMTQxNjkzNDc2MV19
+eyJoaXN0b3J5IjpbLTIwMDU0ODE2NjAsMTQxNjkzNDc2MV19
 -->
