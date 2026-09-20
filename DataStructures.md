@@ -23,9 +23,9 @@
 **unordered_map** - Хеш таблица, нету порядка элементов, нету бин поиска
 
 
-**priority_queue**
+**priority_queue** - Двоичная куча
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzcwNDAxNzNdfQ==
+eyJoaXN0b3J5IjpbLTExNzE1NzA2NTVdfQ==
 -->
