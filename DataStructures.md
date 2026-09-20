@@ -60,9 +60,10 @@ a[i] = d[1] + ... + d[i]
 ```
 
 
+## Более продвинутые структуры
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkwNTQ3MDUsMTQxNjkzNDc2MV19
+eyJoaXN0b3J5IjpbLTU5NDc4NDgyNiwxNDE2OTM0NzYxXX0=
 -->
