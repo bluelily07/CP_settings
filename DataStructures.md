@@ -35,6 +35,12 @@
 pref[i] = pref[i-1] + a[i];
 ```
 
+Сумма на отрезке l r равна
+
+    pref[r] - pref[l-1];
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI0NzMxMDA1LDE0MTY5MzQ3NjFdfQ==
+eyJoaXN0b3J5IjpbLTEyMzI2MTI5NjYsMTQxNjkzNDc2MV19
 -->
