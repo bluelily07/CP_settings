@@ -19,7 +19,9 @@
 
 **map** - тоже самое что и set, только хранит элементы вида ключ : значение. Упорядочивание дерева по ключу.
 
+**unordered_map** - 
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ1MjUxMzQyXX0=
+eyJoaXN0b3J5IjpbNTY2MjQ0OTA0XX0=
 -->
