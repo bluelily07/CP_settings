@@ -26,6 +26,9 @@
 **priority_queue** - Двоичная куча, добавление, удаление - O(logn), взятие максимального/минимального элемента (max-heap/min-heap) - O(1). pop удаляет максимум/минимум. Нету поисков, нету доступа к произвольным элементам, нельзя удалить произвольные элементы.
 
 
+**Одномерные префиксные суммы и разностный массив**
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDAyODAwOSwxNDE2OTM0NzYxXX0=
+eyJoaXN0b3J5IjpbMTc3OTYzMDA1LDE0MTY5MzQ3NjFdfQ==
 -->
