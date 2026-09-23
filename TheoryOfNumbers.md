@@ -141,7 +141,7 @@ a*x + b*y = gcd(a, b)
 Это называется **тождеством Безу**, и такие кооф `x`, `y` всегда существуют для любых `a`, `b`.
 
 ```
-ll extgcd(ll a, ll b, ll &x, ll &y) {
+ll extgcd(ll a, ll b, ll &x, ll &y) {//&x и &y это псевдонимы внешних передаваемых переменных в функцию.
     if (b == 0) {
         x = 1;
         y = 0;
@@ -337,7 +337,7 @@ void solve() {
 
 **Итоговый паттерн, который стоит запомнить:** если в задаче огромное число, от которого известны почти все цифры кроме одной (или нужно что-то доказать про его цифры не вычисляя само число) - в первую очередь проверяй признак делимости на 9 (или 3), и ищи, что даёт гарантию такой делимости через формулу Лежандра или разложение на множители.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODU0MDE1MjUsLTE5NzE1Mjg5OTksNz
-U3OTEzOTQxLDE5OTYzNzQwMTIsLTExOTEzMjg3NzIsMTk1Mzk2
-ODg4MywxMDIxMDA4NzYxXX0=
+eyJoaXN0b3J5IjpbLTI3MDc1NTMxNCwtMjA4NTQwMTUyNSwtMT
+k3MTUyODk5OSw3NTc5MTM5NDEsMTk5NjM3NDAxMiwtMTE5MTMy
+ODc3MiwxOTUzOTY4ODgzLDEwMjEwMDg3NjFdfQ==
 -->
